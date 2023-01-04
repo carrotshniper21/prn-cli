@@ -6,9 +6,7 @@
 [![Python application](https://github.com/4cecoder/pip-cli/actions/workflows/python-app.yml/badge.svg)](https://github.com/4cecoder/pip-cli/actions/workflows/python-app.yml)
 
 
-<video src="https://user-images.githubusercontent.com/88108711/203481427-eaaa4480-966e-462e-a2dd-8125382319ab.mp4">
-  
-<video/>
+<img src="https://user-images.githubusercontent.com/96284645/210649267-9b9fb815-b3c8-472f-b27a-b9721ede7226.png"><img/>
 
 </div>
   
