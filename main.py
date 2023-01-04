@@ -1,7 +1,34 @@
 import requests
 from bs4 import BeautifulSoup
-from pyfzf.pyfzf import FzfPrompt
 import subprocess
+
+
+def check_fzf():
+    result = subprocess.run(["which", "fzf"], stdout=subprocess.PIPE)
+    if result.stdout:
+        pass
+    else:
+        user_choice = input("[!] This program needs fzf install? Y/N ")
+        if user_choice.lower() == "y":
+            subprocess.run(
+                [
+                    "git",
+                    "clone",
+                    "--depth",
+                    "1",
+                    "https://github.com/junegunn/fzf.git",
+                    "~/.fzf",
+                ]
+            )
+            subprocess.run(["~/.fzf/install"])
+            subprocess.run(["clear"])
+        if user_choice.lower() == "n":
+            exit()
+
+
+check_fzf()
+
+from pyfzf.pyfzf import FzfPrompt
 
 
 class MainScraper:
