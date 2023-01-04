@@ -1,2 +1,2 @@
-# prn-cli
+# Porn-cli
 A pornhub Scraper
