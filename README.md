@@ -11,10 +11,8 @@
 </div>
   
 # Run 
-  `git clone https://github.com/carrotshniper21/pip-cli.git`
+  `git clone https://github.com/carrotshniper21/prn-cli.git`
   
-  `cd pip-cli`
+  `cd prn-cli`
   
-  `pip install -r requirements.txt`
-  
-  `python pip_cli.py`
+  `python prn-cli.py`
