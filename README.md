@@ -34,7 +34,3 @@ mkdir -p $HOME/bin
 mv chromedriver $HOME/bin
 echo "export PATH=$PATH:$HOME/bin" >> $HOME/.bash_profile
 ```
-
-# Product Description
-### PRN-CLI
-```Watch pornhub from the terminal```
